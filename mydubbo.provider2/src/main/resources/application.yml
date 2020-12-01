@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: provider-server
+  registry:   #注册中心
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+  protocol:   #dubbo的通信配置
+    name: dubbo
+    port: 20881
+  scan:
+    base-packages: com.zb.service.impl

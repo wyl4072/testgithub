@@ -1,0 +1,4 @@
+com\zb\service\impl\UserServiceImpl.class
+com\zb\controller\UserController.class
+com\zb\MyConsumerApp.class
+com\zb\service\UserService.class

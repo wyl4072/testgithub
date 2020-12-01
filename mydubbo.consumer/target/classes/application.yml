@@ -1,0 +1,14 @@
+server:
+  port: 9090
+dubbo:
+  application:
+    name: consumer-server
+  registry:
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+  scan:
+    base-packages: com.zb.service.impl
+  consumer:
+    check: false
+    timeout: 1000
+    retries: 5
